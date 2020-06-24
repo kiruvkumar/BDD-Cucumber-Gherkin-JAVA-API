@@ -82,20 +82,6 @@ public class ToDoStepDefinition {
 
 
 
-   /* @Given("I use the DELETE endpoint {string}")
-    public void iUseTheDELETEEndpoint(String pathUrl) {
-
-
-        response = ToDoHelper.DeleteToDo(pathUrl);
-    }
-
-    @Then("I should be able to delete a specific Todo item")
-    public void iShouldBeAbleToDeleteASpecificTodoItem() {
-        assertThat(response.statusCode(), equalTo(200));
-        assertThat(response.getBody().jsonPath().get(),equals("{}"));
-
-    }
-*/
 
 
 }
